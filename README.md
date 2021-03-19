@@ -50,11 +50,20 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00009 Move Frodo from Count of Hobbiton to holder of Bag End
 * TRGEO-00010 Remove Frodo spouse
 * TRGEO-00011 Remove Frodo children
-* TRGEO-00012 Add Arwen as spouse of Aragon
+* TRGEO-00012 Remove Aragon children
 * TRGEO-00013 Add Horn of Gondor graphic
 * TRGEO-00014 Remove Bilbo as Count of Hobbiton
 * TRGEO-00015 Add +Health from Ringbearer trait
 * TRGEO-00017 Add Elessar graphic
+* TRGEO-00021 Fix Saruman decision Shire Interference description
+* TRGEO-00022 Add Ring of Saruman graphic
+* TRGEO-00023 Add Key of Orthanc graphic
+* TRGEO-00024 Increase Saruman offense in battle
+* TRGEO-00025 Add Ring of Durin graphic
+* TRGEO-00026 Add Dwarf-Ring graphic
+* TRGEO-00027 Fix crash when Saruman is taking over Shire
+* TRGEO-00028 Remove +1000 gold from Saruman having negative gold if player
+* TRGEO-00029 Remove tolerant from Saruman
 
 **FAQ**
 
