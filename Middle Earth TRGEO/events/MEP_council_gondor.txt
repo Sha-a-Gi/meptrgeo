@@ -695,7 +695,7 @@ character_event = {
 	
 	
 	option = {
-		name = EVTOPTBcouncilgondor.4 ## I want to declare war on an ennemy.
+		name = EVTOPTBcouncilgondor.4 ## I want to declare war on an enemy.
 		character_event = { id = councilgondor.11 }
 	}
 	

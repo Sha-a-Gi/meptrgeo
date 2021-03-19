@@ -16,7 +16,6 @@ decisions = {
 		}
 		allow = {
 			piety = 300
-			wealth = 200
 			prestige = 500
 			war = yes
 		}
@@ -85,7 +84,6 @@ decisions = {
 		}
 		allow = {
 			piety = 300
-			wealth = 200
 			prestige = 500
 			war = yes
 		}
@@ -148,7 +146,6 @@ decisions = {
 		}
 		allow = {
 			piety = 300
-			wealth = 200
 			prestige = 500
 			war = yes
 		}

@@ -4,10 +4,10 @@ EVTDESCpowers.1;You're the holder of Vilya, and with the most powerful of the Th
 EVTOPTApowers.1;I'll use the Ring!;Je vais utiliser l'anneau!;;;;;;;;;;;;x
 EVTOPTBpowers.1;I won't use it.;Je ne l'utiliserais pas.;;;;;;;;;;;;x
 EVTNAMEpowers.2;Vilya;Vilya;;;;;;;;;;;;x
-EVTDESCpowers.2;You're now ready to use Vilya, an you're waiting for the ennemy army. If they come up to you, they'll have a little surprise…;Vous êtes prêt à utiliser Vilya, et attendez l'attaque de l'armée ennemie. S'ils entrent sur vos terres, ils risquent d'avoir une surprise…;;;;;;;;;;;;x
+EVTDESCpowers.2;You're now ready to use Vilya, an you're waiting for the enemy army. If they come up to you, they'll have a little surprise…;Vous êtes prêt à utiliser Vilya, et attendez l'attaque de l'armée ennemie. S'ils entrent sur vos terres, ils risquent d'avoir une surprise…;;;;;;;;;;;;x
 EVTOPTApowers.2;I'm waiting for them.;Je les attends.;;;;;;;;;;;;x
 EVTNAMEpowers.3;Release the Power of Vilya;Lachez le Pouvoir de Vilya!;;;;;;;;;;;;x
-EVTDESCpowers.3;Your ennemy is now in your lands, and he'll now besiege you. You should release the Power of Vilya, and strike your ennemies! But if you use it now, you won't be able to do it again before a long time…;L'ennemi est sur vos terres, et vous assiège. Il est temps de lâcher le Pouvoir de Vilya sur eux ! Si vous le faites maintenant, vous n'aurez cependant plus assez de forces pour recommencer avant une longue période.;;;;;;;;;;;;x
+EVTDESCpowers.3;Your enemy is now in your lands, and he'll now besiege you. You should release the Power of Vilya, and strike your ennemies! But if you use it now, you won't be able to do it again before a long time…;L'ennemi est sur vos terres, et vous assiège. Il est temps de lâcher le Pouvoir de Vilya sur eux ! Si vous le faites maintenant, vous n'aurez cependant plus assez de forces pour recommencer avant une longue période.;;;;;;;;;;;;x
 EVTOPTApowers.3;For my peoples!;Pour mon Peuple!;;;;;;;;;;;;x
 EVTOPTBpowers.3;No, my strength will be enough.;Non, ma force suffira.;;;;;;;;;;;;x
 EVTNAMEpowers.4;A Sudden Storm;Une Tempête Soudaine;;;;;;;;;;;;x
@@ -28,11 +28,11 @@ EVTOPTApowers.6;I'll use the Ring!;Je vais utiliser l'anneau!;;;;;;;;;;;;x
 EVTOPTCpowers.6; I'll use the Ring!; Je vais utiliser l'anneau!;;;;;;;;;;;;x
 EVTOPTBpowers.6;I won't use it.;Je ne l'utiliserais pas.;;;;;;;;;;;;x
 EVTNAMEpowers.7;Nenya;Nenya;;;;;;;;;;;;x
-EVTDESCpowers.7;You're now ready to use Nenya, and with it, you'll hide a lot of your troops near to Caras Galadhon. When the ennemy will come in your demesne, he'll fall in your trap!;Vous êtes prêt à utiliser Nenya, et grâce à cet anneau, vous avez réussi à cacher à la vue de vos ennemis une partie de vos troupes près de Caras Galadhon. S'ils entrent sur vos terres, ils tomberont dans votre piège !;;;;;;;;;;;;x
+EVTDESCpowers.7;You're now ready to use Nenya, and with it, you'll hide a lot of your troops near to Caras Galadhon. When the enemy will come in your demesne, he'll fall in your trap!;Vous êtes prêt à utiliser Nenya, et grâce à cet anneau, vous avez réussi à cacher à la vue de vos ennemis une partie de vos troupes près de Caras Galadhon. S'ils entrent sur vos terres, ils tomberont dans votre piège !;;;;;;;;;;;;x
 EVTOPTApowers.7;I'm waiting for them.;Je les attends.;;;;;;;;;;;;x
 EVTNAMEpowers.8;The Trap of Nenya;Le Piège de Nenya !;;;;;;;;;;;;x
-EVTDESCpowers.8;Your ennemy is now in your lands, and he'll now besiege you. You should release the Power of Nenya, and strike your ennemies! But if you use it now, you won't be able to do it again before a long time…;L'ennemi est sur vos terres, et vous assiège. Il est temps de lâcher le Pouvoir de Nenya sur eux ! Si vous le faites maintenant, vous n'aurez cependant plus assez de forces pour recommencer avant une longue période.;;;;;;;;;;;;x
-EVTOPTApowers.8;Go, my hidden army !;Allez, mon armée cachée!;;;;;;;;;;;;x
+EVTDESCpowers.8;Your enemy is now in your lands, and he'll now besiege you. You should release the Power of Nenya, and strike your ennemies! But if you use it now, you won't be able to do it again before a long time…;L'ennemi est sur vos terres, et vous assiège. Il est temps de lâcher le Pouvoir de Nenya sur eux ! Si vous le faites maintenant, vous n'aurez cependant plus assez de forces pour recommencer avant une longue période.;;;;;;;;;;;;x
+EVTOPTApowers.8;Go, my hidden army!;Allez, mon armée cachée!;;;;;;;;;;;;x
 EVTOPTBpowers.8;No, my strength will be enough.;Non, ma force suffira.;;;;;;;;;;;;x
 EVTNAMEpowers.9;A Sudden Storm;Une Tempête Soudaine;;;;;;;;;;;;x
 EVTDESCpowers.9;While your strengths were preparing the siege, a storm broke so suddenly. In the clouds and the wind, forms appear and disappear ... And then, an army appears around your troops! You fell in a trap, and your men will need to fight now!;Alors que vos forces préparaient le siège de la cité, une tempête éclata de manière subite. Dans les nuages et le vent, des formes apparaissent et disparaissent... Vous vous rendez alors compte qu'une armée elfe vous encercle ! Votre armée n'est pas en état, mais elle devra se battre néanmoins !;;;;;;;;;;;;x

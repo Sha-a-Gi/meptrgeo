@@ -24,6 +24,7 @@ What are we going to do differently?
 **Contributing**
 
 Failure to follow below process or submitting pull requests that result in validation failures will result in your branch/pull request being deleted.
+In the case of broken events, text, graphics, or other bugs open an issue.
 
 1) Choose an item from the provided TODO list.
 2) Push a branch for the item named TRGEO-##### to the repository. 
@@ -32,23 +33,28 @@ Failure to follow below process or submitting pull requests that result in valid
 **Change Log**
 
 * TRGEO-00001 Remove option for player Frodo to wait for Sam to save him if captured by Sauron.
+* TRGEO-00004 Remove Gold requirement from use of Nenya
+* TRGEO-00016 Add Potion artifact effects +1 health
+* TRGEO-00018 Fix Nenya cooldown trigger
+* TRGEO-00019 Remove Gold requirement from use of Vilya
+* TRGEO-00020 Increase MTE for orc breeding events by +5
 
 **TODO** 
 
 * TRGEO-00002 Restore ability of Galadriel to take the One Ring from Frodo
 * TRGEO-00003 Fix Nenya usage description
-* TRGEO-00004 Remove Gold requirement from use of Nenya
 * TRGEO-00005 Stop game from ending if ruling as Galadriel and Sauron wins Final War. Should have choice of sailing to West or continuing to fight.
 * TRGEO-00006 Remove Gollum as Spymaster
 * TRGEO-00007 Change Gollum to Evil religion
 * TRGEO-00008 Add Bag End as holding
-* TRGEO-00009 Move Frodo from Count to Baron of Bag End
-* TRGEO-00010 Remove Pansy Merryflower as spouse
+* TRGEO-00009 Move Frodo from Count of Hobbiton to holder of Bag End
+* TRGEO-00010 Remove Frodo spouse
 * TRGEO-00011 Remove Frodo children
 * TRGEO-00012 Add Arwen as spouse of Aragon
 * TRGEO-00013 Add Horn of Gondor graphic
 * TRGEO-00014 Remove Bilbo as Count of Hobbiton
 * TRGEO-00015 Add +Health from Ringbearer trait
+* TRGEO-00017 Add Elessar graphic
 
 **FAQ**
 
@@ -94,11 +100,11 @@ Any code I find to be problematic at any point will be deleted.
 
 
 * Q: I found a bug not on the TODO list, what should I do?
-* A: Live with it, fix your local copy, or create a project fork and manage it yourself.
+* A: Open an issue for the repository.
 
 
 * Q: How should I contact you?
-* A: <Protonmail address>
+* A: meptrgeo at protonmail dot com
 
 
 * Q: Will you respond?

@@ -6,7 +6,7 @@ namespace = powers
 	character_event = {
 		id = powers.1
 		title = EVTNAMEpowers.1
-		desc = EVTDESCpowers.1
+		desc = EVTDESCpowers.1
 		picture = "GFX_good"
 
 		is_triggered_only = yes
@@ -25,7 +25,7 @@ namespace = powers
 	character_event = {
 		id = powers.2
 		title = EVTNAMEpowers.2
-		desc = EVTDESCpowers.2
+		desc = EVTDESCpowers.2
 		picture = "GFX_good"
 		
 		is_triggered_only=yes
@@ -38,11 +38,11 @@ namespace = powers
 	
 	
 	
-# The Holder of Vilya strike the ennemy #
+# The Holder of Vilya strike the enemy #
 	character_event = {
 		id = powers.3
 		title = EVTNAMEpowers.3
-		desc = EVTDESCpowers.3	
+		desc = EVTDESCpowers.3	
 		picture = "GFX_good"
 		
 		is_triggered_only=yes
@@ -89,11 +89,11 @@ namespace = powers
 		}	
 	}			
 	
-# The ennemy is alerted #
+# The enemy is alerted #
 	character_event = {
 		id = powers.4
 		title = EVTNAMEpowers.4
-		desc = EVTDESCpowers.4
+		desc = EVTDESCpowers.4
 		picture = "GFX_good"
 		
 		is_triggered_only=yes
@@ -128,7 +128,7 @@ namespace = powers
 	character_event = {
 		id = powers.5
 		# title = OK
-		# desc = OK
+		# desc = OK
 		# picture = "GFX_good"
 		hide_window = yes
 		
@@ -154,13 +154,13 @@ namespace = powers
 	character_event = {
 		id = powers.6
 		title = EVTNAMEpowers.6
-		desc = EVTDESCpowers.6
+		desc = EVTDESCpowers.6
 		picture = "GFX_good"
 
 		is_triggered_only = yes
 		
 		option={
-			name=EVTOPTApowers.6 ## Stronger the defenses of Rivendell
+			name=EVTOPTApowers.6 ## Strengthen defenses of Lothlorien
 			character_event = { id = powers.7 }
 		}
 
@@ -174,11 +174,11 @@ namespace = powers
 		}
 	}
 	
-# The Holder of Nenya stronger the defenses of Rivendell #
+# The Holder of Nenya stronger the defenses of Lothlorien #
 	character_event = {
 		id = powers.7
 		title = EVTNAMEpowers.7
-		desc = EVTDESCpowers.7
+		desc = EVTDESCpowers.7
 		picture = "GFX_good"
 		
 		is_triggered_only=yes
@@ -191,11 +191,11 @@ namespace = powers
 	
 	
 	
-# The Holder of Nenya strike the ennemy #
+# The Holder of Nenya strike the enemy #
 	character_event = {
 		id = powers.8
 		title = EVTNAMEpowers.8
-		desc = EVTDESCpowers.8
+		desc = EVTDESCpowers.8
 		picture = "GFX_good"
 		
 		is_triggered_only=yes
@@ -261,11 +261,11 @@ namespace = powers
 		}	
 	}			
 	
-# The ennemy is alerted #
+# The enemy is alerted #
 	character_event = {
 		id = powers.9
 		title = EVTNAMEpowers.9
-		desc = EVTDESCpowers.9
+		desc = EVTDESCpowers.9
 		picture = "GFX_good"
 		
 		is_triggered_only=yes
@@ -305,7 +305,7 @@ namespace = powers
 		hide_window = yes
 		
 		trigger = {
-			has_artifact = vilya
+			has_artifact = nenya
 			has_character_flag = nenya_released
 			age = 1
 		}
@@ -327,13 +327,13 @@ namespace = powers
 character_event = {
     id = powers.11
 	title = EVTNAMEpowers.11
-	desc = EVTDESCpowers.11
+	desc = EVTDESCpowers.11
 	picture = "GFX_evil"
 	
 	is_triggered_only = yes
 	
 	option={
-		name = EVTOPTApowers.11 ## I'll spread it on a single ennemy province
+		name = EVTOPTApowers.11 ## I'll spread it on a single enemy province
 		character_event = { id = powers.12 }
 		wealth = -200
 	}
@@ -356,7 +356,7 @@ character_event = {
 character_event = {
     id = powers.12
 	title = EVTNAMEpowers.12
-	desc = EVTDESCpowers.12
+	desc = EVTDESCpowers.12
 	picture = "GFX_evil"
 	
 	is_triggered_only=yes
@@ -376,7 +376,7 @@ character_event = {
 	}
 	
 	option={
-		name = EVTOPTBpowers.12 ## The Black Fume will be send on a random ennemy province
+		name = EVTOPTBpowers.12 ## The Black Fume will be send on a random enemy province
 		any_current_enemy = {
 			limit = { 
 				higher_tier_than = BARON 
@@ -391,11 +391,11 @@ character_event = {
 }
 
 
-#The Ennemy is informed of the Black Fume #
+#The enemy is informed of the Black Fume #
 character_event = {
 	id = powers.13
 	title = EVTNAMEpowers.13
-	desc = EVTDESCpowers.13
+	desc = EVTDESCpowers.13
 	picture = "GFX_evil"
 	
 	is_triggered_only=yes
@@ -409,7 +409,7 @@ character_event = {
 character_event = {
 	id = powers.14
 	title = EVTNAMEpowers.14
-	desc = EVTDESCpowers.14
+	desc = EVTDESCpowers.14
 	picture = "GFX_evil"
 	
 	is_triggered_only=yes

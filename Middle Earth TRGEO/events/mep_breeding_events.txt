@@ -121,7 +121,7 @@ character_event = {	#Move Male Orc to a court
 	}
 
 	mean_time_to_happen = {
-		years = 5
+		years = 10
 	}
 
 	immediate = {
@@ -256,7 +256,7 @@ character_event = {	#Randomly Impregnate Females in Breeding Pits
 	}
 
 	mean_time_to_happen = {
-		years = 10
+		years = 15
 	}
 
 	immediate = {

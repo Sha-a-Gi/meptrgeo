@@ -431,6 +431,8 @@ elessar = {
 
 artifact_potion = {
 	picture = "GFX_cup_fancy"
+	quality = 1
+	health = 1.0
 	slot = potion
 	flags = { art_potion }
 	stacking = no
