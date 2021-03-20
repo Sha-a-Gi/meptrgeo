@@ -5,7 +5,7 @@
 A reboot of the amazing Middle Earth Project mod for Crusader Kings 2 from Paradox.
 
 **Objectives**
-1) Fix bugs, lore, and fun ending issues.
+1) Fix validation, bugs, lore, and fun ending issues.
 2) Re-add key sandbox elements around artifacts.
 3) Solve performance and balance problems for long-ish games.
 
@@ -144,7 +144,7 @@ All code / characters / concepts / etc are included via fair use doctrine.
 Many years ago when this mod started I briefly joined as a contributor.
 I was just learning CK2 mods and sadly had to focus on other work.
 
-Thanks to modders who gave thousands of hours bringing MEP to v0.8.3.
+Thanks to modders who gave thousands of hours bringing MEP to v0.831.
 
 Thanks to all the other dedicated CK2 modders who continue to work on AGOT, Elder Kings, etc.
 
