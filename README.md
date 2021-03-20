@@ -1,8 +1,10 @@
-*Middle Earth Project: The Road Goes Ever On*
+### Middle Earth Project: The Road Goes Ever On
+
+**Requires Crusader Kings 2 v3.3.3**
 
 **About CK2:MEP:TRGEO**
 
-A reboot of the amazing Middle Earth Project mod for Crusader Kings 2 from Paradox.
+A reboot of the amazing Middle Earth Project mod for Crusader Kings 2 v3.3.3 from Paradox Interactive.
 
 **Objectives**
 1) Fix validation, bugs, lore, and fun ending issues.
@@ -100,7 +102,7 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 
 
 * Q: How frequently will this mod be updated?
-* A: All approved merge requests will be merged to master immediately.
+* A: All approved merge requests will be merged to main ASAP.
 
 
 * Q: My branch/merge request/code was deleted.
@@ -115,6 +117,8 @@ Any code I find to be problematic at any point will be deleted.
 * Q: I found a bug not on the TODO list, what should I do?
 * A: Open an issue for the repository.
 
+* Q: Will you be fixing missing localization / timeline / CK2 version compatibility?
+* A: Unless raised via clear issues on Github and accepted on to the TODO list in a (very large set no doubt!) of specific atomic changes - no.
 
 * Q: How should I contact you?
 * A: meptrgeo at protonmail dot com
