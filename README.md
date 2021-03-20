@@ -64,6 +64,10 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00027 Fix crash when Saruman is taking over Shire
 * TRGEO-00028 Remove +1000 gold from Saruman having negative gold if player
 * TRGEO-00029 Remove tolerant from Saruman
+* TRGEO-00030 Increase piety gain for Ring of Saruman by +0.5
+* TRGEO-00031 Decrease prestige for temple holding to 5000
+* TRGEO-00032 Replace temple holding images for Evil followers
+* TRGEO-00033 Replace Halflings with Orcs after land cleared by Saruman
 
 **FAQ**
 
