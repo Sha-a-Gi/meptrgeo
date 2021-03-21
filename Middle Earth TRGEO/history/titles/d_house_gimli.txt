@@ -1,0 +1,5 @@
+11361.1.1=
+{
+holder = 4058 # Gimli son of Gloin
+liege = k_northeast_mountains
+}

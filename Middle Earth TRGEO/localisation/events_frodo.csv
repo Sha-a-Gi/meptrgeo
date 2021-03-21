@@ -94,7 +94,7 @@ EVTOPTBfrodo.29;I'll needs more time… i'll rule these lands myself for some year
 EVTTITfrodo.30;Reconstruction of Ithilien;Reconstruction de l'Ithilien;;;;;;;;;;;;x
 EVTDESCfrodo.30;Ithilien is again a part of Gondor, and you are the Lord of this land. You should start reconstruction work quickly, and restore these lands on their former glory.;L'Ithilien est de nouveau une partie du Gondor, et vous en êtes le Seigneur. Vous devriez commencer le travail de reconstruction rapidement, et redonner à ces terres leur gloire de jadis.;;;;;;;;;;;;x
 EVTOPTAfrodo.30;I will purify Minas Ithil!;Je vais purifier Minas Ithil !;;;;;;;;;;;;x
-EVTTITfrodo.31;Gimli ask you to rules Aglarond;Gimli demande à être le Seigneur d'Aglarond;;;;;;;;;;;;x
+EVTTITfrodo.31;Gimli asks you to rules Aglarond;Gimli demande à être le Seigneur d'Aglarond;;;;;;;;;;;;x
 EVTDESCfrodo.31;During his journey with the Fellowship, Gimli discovered the Glittering Caves of Aglarond, and fell in love of this place. He now wants to bring together a company of Dwarves of Erebor to settle in this place. Will you let him travel to Aglarond?;Durant son voyage avec la Communauté, Gimli a découvert les Cavernes Etincelantes d'Aglarond, et en est tombé amoureux. Il souhaite réunir une compagnie de nains d'Erebor pour aller s'installer dans ce lieu. Allez-vous le laissez faire?;;;;;;;;;;;;x
 EVTOPTAfrodo.31;We needs to ask the King of Rohan.;Nous devons demander au Roi du Rohan.;;;;;;;;;;;;x
 EVTOPTBfrodo.31;No, i need him here.;Non, j'ai besoin de lui ici.;;;;;;;;;;;;x
@@ -107,7 +107,7 @@ EVTDESCfrodo.33;The King of Rohan sent his answer, and allows you to install a c
 EVTOPTAfrodo.33;Go, Gimli son of Gloin, lord of the Glittering Caves!;Allez, Gimli fils de Gloin, Seigneur des Cavernes Etincelantes !;;;;;;;;;;;;x
 EVTOPTBfrodo.33;I want him to finally stay here.;Je souhaite finalement qu'il reste ici.;;;;;;;;;;;;x
 EVTTITfrodo.34;Go to Aglarond!;En Route vers Aglarond!;;;;;;;;;;;;x
-EVTDESCfrodo.34;Your King allow you to settle the Glittering Caves of Aglarond. You're now a true Lord of the Dwarves !;Votre Roi vous autorise à coloniser les Cavernes Etincelantes. Vous êtes le véritable Seigneur d'Aglarond maintenant!;;;;;;;;;;;;x
+EVTDESCfrodo.34;Your King allows you to settle the Glittering Caves of Aglarond. You're now a true Lord of the Dwarves !;Votre Roi vous autorise à coloniser les Cavernes Etincelantes. Vous êtes le véritable Seigneur d'Aglarond maintenant!;;;;;;;;;;;;x
 EVTOPTAfrodo.34;Yes!;Oui!;;;;;;;;;;;;x
 EVTTITfrodo.35;Legolas wants to go to Ithilien;Legolas veut aller en Ithilien;;;;;;;;;;;;x
 EVTDESCfrodo.35;Legolas returned his quest with the Fellowship of the Ring, but no longer seems to have the mind turned to your kingdom. Quickly, he comes to you, asking you for permission to go and settle in Ithilien, to help to revive the forests of this region.;Legolas est revenu de sa quête avec la communauté de l'Anneau, mais semble ne plus avoir l'esprit tourné vers votre Royaume. Rapidement, il vient vers vous, vous demandant l'autorisation d'aller s'installer en Ithilien, afin de faire revivre les forêts de cette région.;;;;;;;;;;;;x

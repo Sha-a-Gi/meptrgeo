@@ -40,6 +40,9 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00018 Fix Nenya cooldown trigger
 * TRGEO-00019 Remove Gold requirement from use of Vilya
 * TRGEO-00020 Increase MTE for orc breeding events by +5
+* TRGEO-00034 Remove references to global aztec_invasion
+* TRGEO-00037 Allow Gimli to be playable - adds House Gimli ducal title and Barony of Back Door on 11361.1.1. Held by Gloin during War of the Ring.  
+
 
 **TODO** 
 
@@ -70,6 +73,11 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00031 Decrease prestige for temple holding to 5000
 * TRGEO-00032 Replace temple holding images for Evil followers
 * TRGEO-00033 Replace Halflings with Orcs after land cleared by Saruman
+* TRGEO-00035 Fix setting of global flag aglarond_built
+* TRGEO-00036 Add text for Dwarf wonders
+* TRGEO-00038 Return House Gimli title to Gimli post War of Ring.
+* TRGEO-00039 If owner of Aglaron is Gonder/Riddermark/Dwarves allow Gimli to ask for ownership via decision
+
 
 **FAQ**
 
@@ -117,8 +125,10 @@ Any code I find to be problematic at any point will be deleted.
 * Q: I found a bug not on the TODO list, what should I do?
 * A: Open an issue for the repository.
 
-* Q: Will you be fixing missing localization / timeline / CK2 version compatibility?
+
+* Q: Will you be fixing missing non-English localization / timeline / CK2 version compatibility?
 * A: Unless raised via clear issues on Github and accepted on to the TODO list in a (very large set no doubt!) of specific atomic changes - no.
+
 
 * Q: How should I contact you?
 * A: meptrgeo at protonmail dot com

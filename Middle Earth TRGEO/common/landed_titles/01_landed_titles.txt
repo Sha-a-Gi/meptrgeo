@@ -8759,14 +8759,22 @@ e_durins_folk = {
 				}
 				b_hall_of_treasure = {
 				}
-				b_back_door = {
-				}
 				b_erebor = {
 				}
 			}
 		}
 		
-		
+		d_house_gimli = { #House of Gimli
+
+		    color={ 216 205 35 }
+            color2={ 255 255 255 }
+            culture = culture_longbeard
+            religion = religion_khazad
+            b_back_door = {
+            }
+
+		}
+
 		d_iron_mountains = {
 			color={ 216 205 35 }
 			color2={ 255 255 255 }

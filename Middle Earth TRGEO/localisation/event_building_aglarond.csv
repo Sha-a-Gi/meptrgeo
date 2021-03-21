@@ -30,7 +30,7 @@ EVTOPTBbuilding_aglarond.5;Save the miners first, the lava will wait !;Sauvez le
 EVTOPTCbuilding_aglarond.5;Split the water in two !;Séparez l'eau en deux écoulements !;;;;;;;;;;;x
 EVTOPTDbuilding_aglarond.5;This place is too dangerous, we leave now !;;;;;;;;;;;;x
 EVTTITbuilding_aglarond.6;Magma;Magma;;;;;;;;;;;;x
-EVTDESCbuilding_aglarond.6;You failed to fill the gallerie leading to the magmatic chamber, and now lava is rising. The only thing you can do is leave this place with as many living dwarves as possible.;Vous avez échoué à boucher la gallerie menant à la oche de magma, et maintenant la lave remonte. tout ce qu'il vous reste à faire est de quitter les lieux avec autant de nains vivants qu'il est encore possible.;;;;;;;;;;;x
+EVTDESCbuilding_aglarond.6;You failed to fill the gallery leading to the magmatic chamber, and now lava is rising. The only thing you can do is leave this place with as many living dwarves as possible.;Vous avez échoué à boucher la gallerie menant à la oche de magma, et maintenant la lave remonte. tout ce qu'il vous reste à faire est de quitter les lieux avec autant de nains vivants qu'il est encore possible.;;;;;;;;;;;x
 EVTOPTAbuilding_aglarond.6;I'll come back.;Je reviendrais.;;;;;;;;;;;;x
 EVTTITbuilding_aglarond.7;A new kingdom !;Un nouveau royaume !;;;;;;;;;;;;x
 EVTDESCbuilding_aglarond.7;You managed to dig and build a major home for dwarves. Something that will last forever and that could challenge the glory of Khazâd-dum or Erebor themselves!;Vous avez réussi à creuser assez profond et à bâtir un nouveau foyer pour le peuple Nain. Quelquechose qui perdurera et qui pourrait bien rivaliser avec Khazâd-dum !;;;;;;;;;;;;x
