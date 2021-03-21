@@ -76,7 +76,7 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00035 Fix setting of global flag aglarond_built
 * TRGEO-00036 Add text for Dwarf wonders
 * TRGEO-00038 Return House Gimli title to Gimli post War of Ring.
-* TRGEO-00039 If owner of Aglaron is Gonder/Riddermark/Dwarves allow Gimli to ask for ownership via decision
+* TRGEO-00039 If owner of Aglarond is owned by Light following char allow Gimli to ask for ownership via decision
 
 
 **FAQ**
