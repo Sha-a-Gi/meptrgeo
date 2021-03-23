@@ -470,25 +470,19 @@ province_event = {	#Province Cleared
 	picture = GFX_evt_ruins
 	is_triggered_only = yes
 
-	immediate = {
+	option = {
+		name = EVTOPTAcolonisation.52
+		remove_province_modifier = clearing_province
 		owner = {
-			top_liege = {
-				capital_scope = {
-					save_event_target_as = owner
-				}
-			}
-		}
+        	ROOT = {
+        		culture = PREV
+        		religion = PREV
+        	}
+        }
 		set_variable = {
 			which = sin_pop
 			value = 1000
 		}
-		culture = event_target:owner
-		religion = event_target:owner
-	}
-
-	option = {
-		name = EVTOPTAcolonisation.52
-		remove_province_modifier = clearing_province
 	}
 }
 character_event = {	#Stop Genocide

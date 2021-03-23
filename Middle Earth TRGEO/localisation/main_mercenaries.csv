@@ -104,6 +104,10 @@ d_grey_company;The Grey Company;x;x;x;x;;x;x
 d_grey_company_adj;The Grey Company's;x;x;x;x;;x;x
 d_rangers_ithilien;The Rangers of Ithilien;x;x;x;x;;x;x
 d_rangers_ithilien_adj;The Rangers of Ithilien's;x;x;x;x;;x;x
+d_eagles_company;Great Eagles;x;x;x;x;;x;x
+d_eagles_company_adj;The Great Eagles';x;x;x;x;;x;x
+d_ents_company;March of the Ents;x;x;x;x;;x;x
+d_ents_company_adj;The March of the Ents';x;x;x;x;;x;x
 ##;x;x;x;x;x;;x;x
 Head;;;;;;;x
 myhead;;;;;;;x

@@ -42,7 +42,10 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00020 Increase MTE for orc breeding events by +5
 * TRGEO-00034 Remove references to global aztec_invasion
 * TRGEO-00037 Allow Gimli to be playable - adds House Gimli ducal title and Barony of Back Door on 11361.1.1. Held by Gloin during War of the Ring.  
-
+* TRGEO-00047 Add Ent and Eagle holy order for Gandalf's use
+* TRGEO-00043 Add ducal holding for Gandalf to allow to be played prior to WOTR events
+* TRGEO-00052 Add conquer CB for Gandalf - Do not meddle in the affairs of Wizards!
+* TRGEO-00058 Remove Maia trait from being added to Istari culture (Prevent dozens of random Maia from being generated in courts)
 
 **TODO** 
 
@@ -77,6 +80,22 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00036 Add text for Dwarf wonders
 * TRGEO-00038 Return House Gimli title to Gimli post War of Ring.
 * TRGEO-00039 If owner of Aglarond is owned by Light following char allow Gimli to ask for ownership via decision
+* TRGEO-00040 Add axe artifact for Gimli
+* TRGEO-00041 Add bow artifact for Legolas
+* TRGEO-00042 Add Glittering Caves wonder to Aglarond
+* TRGEO-00044 Prevent war in Shire if Saruman does not flee
+* TRGEO-00045 Add Numereon wonder names
+* TRGEO-00046 Enable removing artifacts from prisoners
+* TRGEO-00048 Move Great Eagle mercs to Rasroval
+* TRGEO-00049 Move Ents mercs to Derndingle
+* TRGEO-00050 Add powers to Narya
+* TRGEO-00051 Add effects from Shield of Light
+* TRGEO-00052 Add Plate Armor artifact graphic
+* TRGEO-00053 When requesting an artifact to be crafted change 3rd option to 'Very High Quality materials'
+* TRGEO-00054 When selecting reward for crafted artifact w/ bonus give character money in addition to prestige
+* TRGEO-00055 Fix martial study text ref Alexander the Great w/ lore appropriate ref
+* TRGEO-00056 Fix martial study text ref Art of War
+* TRGEO-00057 Reduce piety of Istari characters with vassals (Wizards who rule over Middle Earth have their powers wane)
 
 
 **FAQ**

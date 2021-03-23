@@ -1301,7 +1301,6 @@ character_event = {	#Assign Race Traits
 				OR = {
 					culture = culture_maiar
 					culture = culture_umaiar
-					culture = culture_istari
 				}
 			}
 			add_trait = maiar

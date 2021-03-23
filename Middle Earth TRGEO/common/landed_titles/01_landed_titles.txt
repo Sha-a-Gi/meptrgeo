@@ -14192,7 +14192,7 @@ d_mayor_shire = {
 
 }
 
-d_blue= {
+d_blue = {
 	color={ 35 240 26 }
 	color2={ 255 255 255 }
 	
@@ -14207,7 +14207,7 @@ d_blue= {
 
 }
 
-d_balrog= {
+d_balrog = {
 	color={ 250 250 250 }
 	color2={ 255 255 255 }
 	
@@ -14223,7 +14223,17 @@ d_balrog= {
 
 }
 
+d_house_olorin = { #Gandalf duke title
 
+	color={ 92 59 213 }
+	color2={ 125 125 142 }
+
+    landless = yes
+
+    culture = culture_istari
+    religion = religion_eldar
+
+}
 
 e_noldor = {
 	color={ 92 59 213 }

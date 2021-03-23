@@ -38,7 +38,7 @@ popreq_1000;Have a population of at least 1,000,000. Though Elves and Dwarves ar
 ####################
 arm_the_peasants;Arm the Peasants;;;;;;;;;;;;;x
 arm_the_peasants_desc;The War grows desperate, you can army the peasants and continue the fight.;;;;;;;;;;;;;x
-clearing_province;Making Breathing Room;;;;;;;;;;;;;x
+clearing_province;Removing Foreign Population;;;;;;;;;;;;;x
 clearing_province_desc;The foreign population in the province is being eradicated;;;;;;;;;;;;;x
 mod_armed_peasants;Peasants Armed;;;;;;;;;;;;;x
 mod_armed_peasants_desc;The Peasants are armed and away at war.;;;;;;;;;;;;;x

@@ -3205,7 +3205,6 @@ maiar = {
 		OR = {
 			culture = culture_maiar
 			culture = culture_umaiar
-			culture = culture_istari
 		}
 	}
 	culture_flex = 0.6

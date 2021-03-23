@@ -7,9 +7,6 @@
 ### muslim_county_conquest (county conquest by hildor/melkor)
 ### tribal_invasion
 
-# 2017/04/19 : Removed out 'Resistance Revolt'. Cleaned some syntax. (JamesFox)
-
-
 isildur_reconquest = {
 	name = CB_NAME_ISILDUR
 	war_name = WAR_NAME_ISILDUR

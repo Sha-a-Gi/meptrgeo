@@ -5026,7 +5026,7 @@ province_event = {	#Food Shortage
 		}
 	}
 
-	option = {	#Sucks for you
+	option = {	#Population loss
 		name = EVTOPTCpopulation_events.51
 		multiply_variable = {
 			which = sin_pop

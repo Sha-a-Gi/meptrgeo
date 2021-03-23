@@ -795,6 +795,78 @@ d_grey_company = {
 	monthly_income = 3 # (Must be an integer between 1 and 512)
 }
 
+d_ents_company = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+
+    graphical_culture = holygfx
+
+    capital = 269 # Amon Sul
+
+	allow = {
+		AND = {
+			culture = culture_istari
+		}
+		AND = {
+		    any_realm_title = { title = d_fellowship_gandalf }
+		}
+	}
+
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+
+	# Always exists
+	landless = yes
+
+	holy_order = yes
+	mercenary_type = ents_mercenaries
+
+	culture = culture_entish
+	religion = religion_eruhini
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
+d_eagles_company = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+
+	graphical_culture = holygfx
+
+	capital = 269 # Amon Sul
+
+	allow = {
+		AND = {
+			culture = culture_istari
+		}
+		AND = {
+		    any_realm_title = { title = d_fellowship_gandalf }
+		}
+	}
+
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+
+	# Always exists
+	landless = yes
+
+	holy_order = yes
+	mercenary_type = eagles_mercenaries
+
+	culture = culture_eagles
+	religion = religion_eruhini
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
 d_ithilien_rangers = {
 	color={ 230 230 230 }
 	color2={ 255 255 255 }
