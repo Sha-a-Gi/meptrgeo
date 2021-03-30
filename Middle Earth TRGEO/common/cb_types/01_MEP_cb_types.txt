@@ -5,6 +5,148 @@
 # elessar_destiny_conquest
 # kingdom_good_attack_evil  Intended for scripted major attack evil wars
 
+noldor_attack_county { #Noldor Elves can take any county from evil characters with Martial focus
+
+    name = CB_NAME_DUCHY_GOOD_ATTACK_EVIL
+    war_name = WAR_NAME_DUCHY_GOOD_ATTACK_EVIL
+	sprite = 9
+	truce_days = 500
+	is_permanent = yes
+	is_holy_war = no
+	battle_warscore_mult = 0.5 # In Good vs Evil, the sides should not give up easy
+	attacker_ai_defeat_worth = { factor = 75 } #But the attacker should give up more easily
+
+	allowed_to_target_tributaries = no
+
+	can_use = {
+		ROOT = {
+			culture = culture_noldor
+		}
+		FROM = {
+        	NOT = {
+        	    culture_group = culture_group_wilderness
+        	}
+        }
+	}
+
+	on_add = {
+		ROOT = { piety = -50 }
+	}
+
+	# war keeps ongoing as long as the same conditions which allowed it to be declared still apply.
+	is_valid = {
+		ROOT = {
+			culture = culture_noldor
+		}
+	}
+	# success results which do NOT involve territory
+	on_success = {
+		any_attacker = {
+			limit = { character = ROOT }
+			participation_scaled_piety = 100
+			participation_scaled_prestige = 50
+			if = {
+				limit = {
+					uses_decadence = yes
+				}
+				participation_scaled_decadence = -10
+			}
+		}
+		any_attacker = {
+			limit = { NOT = { character = ROOT } }
+			hidden_tooltip = {
+				participation_scaled_piety = 100
+				participation_scaled_prestige = 50
+				if = {
+					limit = {
+						uses_decadence = yes
+					}
+					participation_scaled_decadence = -10
+				}
+			}
+		}
+		FROM = { piety = -100 }
+		FROM = { prestige = -50 }
+	}
+
+	# success which does involve territory
+	on_success_title = {
+		usurp_title = { target = ROOT }
+	}
+
+	on_fail = {
+		ROOT = {
+			piety = -50
+			prestige = -100
+		}
+	}
+
+	on_reverse_demand = {
+		ROOT = {
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+			piety = -75
+			prestige = -150
+		}
+		any_defender = {
+			limit = { character = FROM }
+			participation_scaled_piety = 200
+			participation_scaled_prestige = 100
+			if = {
+				limit = {
+					uses_decadence = yes
+				}
+				participation_scaled_decadence = -10
+			}
+		}
+		any_defender = {
+			limit = { NOT = { character = FROM } }
+			hidden_tooltip = {
+				participation_scaled_piety = 200
+				participation_scaled_prestige = 100
+				if = {
+					limit = {
+						uses_decadence = yes
+					}
+					participation_scaled_decadence = -10
+				}
+			}
+		}
+		ROOT = {
+			religion_authority = {
+				modifier = lost_holy_war
+				years = 20
+			}
+		}
+		FROM = {
+			religion_authority = {
+				modifier = won_holy_war
+				years = 20
+			}
+		}
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
 gandalf_attack_county { #Gandalf can take any county - do not mettle in the affairs of wizards!
 
     name = CB_NAME_DUCHY_GOOD_ATTACK_EVIL
@@ -22,6 +164,11 @@ gandalf_attack_county { #Gandalf can take any county - do not mettle in the affa
 		ROOT = {
 			has_landed_title = d_fellowship_gandalf
 		}
+        FROM = {
+        	NOT = {
+        	    culture_group = culture_group_wilderness
+        	}
+        }
 	}
 
 	on_add = {

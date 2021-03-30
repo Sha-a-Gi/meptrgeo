@@ -96,7 +96,12 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00055 Fix martial study text ref Alexander the Great w/ lore appropriate ref
 * TRGEO-00056 Fix martial study text ref Art of War
 * TRGEO-00057 Reduce piety of Istari characters with vassals (Wizards who rule over Middle Earth have their powers wane)
-
+* TRGEO-00059 Allow selection of settled race post population removal
+* TRGEO-00060 Allow county level conquest for Sindar with martial focus
+* TRGEO-00061 Add localization text for ca_imladris2
+* TRGEO-00062 Add localization text for great_east_road
+* TRGEO-00063 Add localization for elf wonders
+* TRGEO-00064 Stop Wilderness from joining defensive pacts
 
 **FAQ**
 
