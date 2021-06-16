@@ -1442,7 +1442,7 @@ diarrhea = {
 	intrigue_penalty = -2
 
 	health_penalty = -1
-	fertility_penalty = -0.2
+	fertility_penalty = -0.5
 	
 	combat_rating = -1
 	
@@ -1466,7 +1466,7 @@ vomiting = {
 	intrigue_penalty = -2
 
 	health_penalty = -1
-	fertility_penalty = -0.3
+	fertility_penalty = -0.4
 
 	combat_rating = -1
 	
@@ -1568,7 +1568,7 @@ abdominal_pain = {
 
 	health_penalty = -1
 	
-	fertility_penalty = -0.1
+	fertility_penalty = -0.2
 	
 	customizer = no
 
@@ -1752,7 +1752,7 @@ severely_injured = {
 	sex_appeal_opinion = -10
 	same_opinion = 5
 	
-	fertility_penalty = -0.25 
+	fertility_penalty = -0.5
 	
 	intrigue_penalty = -2
 	martial_penalty = -2
@@ -2966,7 +2966,7 @@ elf = {
 	sex_appeal_opinion = 10
 	diplomacy = 2
 	stewardship = 2
-    fertility_penalty = -0.2
+    fertility_penalty = -0.3
 	health = 50
 	customizer = yes
 	ruler_designer_cost = 0
@@ -3045,7 +3045,7 @@ dwarven = {
    	health = 15.0
   	same_opinion = 20
 	martial = 2
-	fertility_penalty = -0.25
+	fertility_penalty = -0.3
     stewardship = 3
 	customizer = yes
 	ruler_designer_cost = 0
@@ -3084,7 +3084,7 @@ numenorean = {
 	same_opinion = 25
 	opposite_opinion = 20
 	vassal_opinion = -10
-	fertility_penalty = -0.2
+	fertility_penalty = -0.25
 	ruler_designer_cost = 0
 	opposites =  {
 		numenor_blood
@@ -3098,7 +3098,7 @@ numenor_blood = {
 	customizer = yes
 	same_opinion = 15
 	opposite_opinion = 10
-	fertility_penalty = -0.1
+	fertility_penalty = -0.15
 	vassal_opinion = -5
 	ruler_designer_cost = 0
 	opposites =  {
@@ -3122,7 +3122,7 @@ eagle = {
 		culture = culture_eagles
 	}
 	same_opinion = 10
-	fertility_penalty = -5.0
+	fertility_penalty = -0.9
     health = 1000.0
    	diplomacy = 3
 	stewardship = 3
@@ -3135,6 +3135,7 @@ eagle = {
 }
 hobbit = {
     potential = { culture_group = culture_group_halfling }
+    fertility_penalty = -0.1
     health = 6.5
     same_opinion = 20
     inherit_chance = 100
@@ -3162,7 +3163,7 @@ hobbit_friend = {
 ent = {	
 	potential = { culture = culture_entish }
     same_opinion = 20
-	fertility_penalty = -5.0
+	fertility_penalty = -0.9
     health = 100.0
     diplomacy = 3
 	intrigue_penalty = -10
@@ -3315,7 +3316,7 @@ wight = {
 		religion = religion_wight
 		culture = culture_wight
 	}
-	fertility_penalty = -4.0
+	fertility_penalty = -5.0
 	health = 1000.0
 	intrigue = 4
 	martial = 3
@@ -5954,19 +5955,19 @@ horse = {
 #One Ring
 onering = {
     immortal = yes
-	fertility_penalty = -3.0
+	fertility_penalty = -5.0
 	
-	intrigue = 10
-	diplomacy = 2
-	martial = 2
+	intrigue = 15
+	diplomacy = 5
+	martial = 5
 
 	leadership_traits = 2
 	customizer = no
 	# cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger 	
 }
 ringbearer1 = {
-	fertility_penalty = -3.0
-	health = 10.0	
+	fertility_penalty = -5.0
+	immortal = yes
 	general_opinion = 2
     	monthly_character_prestige = 0.5	
 	customizer = no
@@ -5974,7 +5975,7 @@ ringbearer1 = {
 	random = no
 }
 ringbearer2 = {
-	fertility_penalty = -3.0
+	fertility_penalty = -5.0
 	immortal = yes	
 	general_opinion = 2
 	monthly_character_prestige = 0.5	

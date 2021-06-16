@@ -29,7 +29,6 @@ decisions = {
 					}
 				}
 				NOR = {
-					has_province_modifier = being_colonised
 					has_province_modifier = clearing_province
 				}
 			}
@@ -38,7 +37,7 @@ decisions = {
 			character_event = { id = colonisation.5 }
 		}
 		ai_will_do = {
-			factor = 0.01
+			factor = 0.1
 		}
 	}
 }

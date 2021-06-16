@@ -4891,7 +4891,7 @@ province_event = {	#Pop Growth
 		has_province_modifier = mod_pop_display
 		check_variable = {
 			which = sin_pop
-			value < 1500000
+			value < 1000000
 		}
 		NOT = {
 			has_province_modifier = pop_wilderness
@@ -4899,25 +4899,34 @@ province_event = {	#Pop Growth
 	}
 
 	mean_time_to_happen = {
-		years = 600
+		years = 100
 		modifier = {	#Happens more for Colonies
-			factor = 0.1
+			factor = 0.05
 			has_province_modifier = being_colonised
 		}
-		modifier = {	#Happens more for Rapid Breeders
-			factor = 0.65
+		modifier = {	#Orks, Haradrim and Spiders have faster pop growth
+			factor = 0.8
 			OR = {
 				culture = culture_orkish
 				culture = culture_spider
+				culture = culture_haradrim
 			}
+		}
+		modifier = {    #Istari, Elves have slower pop growth
+		    factor = 1.2
+		    OR = {
+		        culture = culture_noldor
+		        culture = culture_istari
+		        culture = culture_silvan
+		    }
 		}
 	}
 
-	option = {	#10% increase in population
+	option = {	#20% increase in population
 		name = EVTOPTApopulation_events.4
 		multiply_variable = {
 			which = sin_pop
-			value = 1.1
+			value = 1.2
 		}
 	}
 }
@@ -4934,7 +4943,7 @@ province_event = {	#Food Surplus
 	}
 
 	mean_time_to_happen = {
-		years = 50
+		years = 100
 	}
 
 	option = {	#Collect a Bonus Tax
@@ -4961,10 +4970,11 @@ province_event = {	#Food Surplus
 		}
 		multiply_variable = {
 			which = sin_pop
-			value = 1.05
+			value = 1.10
 		}
 	}
 }
+
 province_event = {	#Pop Decline
 	id = population_events.5
 	desc = EVTDESCpopulation_events.5
@@ -4972,15 +4982,19 @@ province_event = {	#Pop Decline
 
 	trigger = {
 		has_province_modifier = mod_pop_display
+		check_variable = {
+            which = sin_pop
+            value > 250000
+        }
 		NOT = {
 			has_province_modifier = pop_wilderness
 		}
 	}
 
 	mean_time_to_happen = {
-		years = 600
+		years = 100
 		modifier = {	#Rapid Breeders More likely to Crash
-			factor = 0.65
+			factor = 0.4
 			OR = {
 				culture = culture_orkish
 				culture = culture_spider
@@ -4988,14 +5002,51 @@ province_event = {	#Pop Decline
 		}
 	}
 
-	option = {	#10% decrease in population
+	option = {	#40% decrease in population
 		name = EVTOPTApopulation_events.5
 		multiply_variable = {
 			which = sin_pop
-			value = 0.9
+			value = 0.6
 		}
 	}
 }
+
+province_event = {	#Minor Pop Decline
+	id = population_events.5
+	desc = EVTDESCpopulation_events.5
+	picture = GFX_evt_ruins
+
+	trigger = {
+		has_province_modifier = mod_pop_display
+		check_variable = {
+            which = sin_pop
+            value > 100000
+        }
+		NOT = {
+			has_province_modifier = pop_wilderness
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 100
+		modifier = {	#Rapid Breeders More likely to Crash
+			factor = 0.6
+			OR = {
+				culture = culture_orkish
+				culture = culture_spider
+			}
+		}
+	}
+
+	option = {	#20% decrease in population
+		name = EVTOPTApopulation_events.5
+		multiply_variable = {
+			which = sin_pop
+			value = 0.8
+		}
+	}
+}
+
 province_event = {	#Food Shortage
 	id = population_events.51
 	desc = EVTDESCpopulation_events.51
@@ -5009,7 +5060,7 @@ province_event = {	#Food Shortage
 	}
 
 	mean_time_to_happen = {
-		years = 50
+		years = 100
 	}
 
 	option = {	#Pay for a Grain Shipment

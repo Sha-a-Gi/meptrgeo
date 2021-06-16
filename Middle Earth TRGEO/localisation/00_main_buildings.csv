@@ -1096,6 +1096,7 @@ ca_men_i_naugrim_ruins_desc;This portion of the Men-i-Naugrim has been abandoned
 ca_sauron_road;Doom Road;;;;;;;;;;;x
 ca_sauron_road_desc;The Doom Road, also named Sauron's Road, is a road that connects the Orodruin with the sorrounding lands. It rises about 4500 feet with its base about 3000 feet tall. The Road approaches the east side of the base and then goes up like a snake. This road needs constant repairs from Mt. Doom’s eruptions.;The Doom Road, also named Sauron's Road, is a road that connects the Orodruin with the sorrounding lands.  It rises about 4500 feet with its base about 3000 feet tall. The Road approaches the east side of the base and then goes up like a snake. This road needs constant repairs from Mt. Doom’s eruptions.;;;;;;;;;;;x
 ca_great_east_road;Great East Road;;;;;;;;;;;x
+great_east_road;Great East Road;;;;;;;;;;;x
 ca_great_east_road_desc;The Great East Road was originally laid by the dwarves during the First Age before the first rising of the Sun, probably during the last Age of Stars, and ran from the Iron Hills through Rhovanion to Khazad-dûm, from which it continued across Eriador to the Ered Luin, and then on into Doriath in Beleriand. The western parts were built to facilitate the passage of companies of dwarf craftsmen (and later, their armed escort) across eastern Beleriand, before the Sack of Doriath by the dwarfs of Nogrod ended their trade.;;;;;;;;;;;x
 ca_greenway_road;Greenway;;;;;;;;;;;x
 ca_greenway_road_desc;The Greenway is the northernmost portion of an ancient road which was meant to connect Arnor with Gondor.;;;;;;;;;;;x
@@ -1113,7 +1114,8 @@ ca_kings_highway;King's Highway;;;;;;;;;;;x
 ca_kings_highway_desc;This great road used to connect Minas Tirith, Osgiliath, and Minas Ithil;;;;;;;;;;;x
 ca_harad_road;The Harad Road;;;;;;;;;;;x
 ca_harad_road_desc;The Harad Road was the long road that connected Ithilien and Harad.;;;;;;;;;;;x
+ca_imladris2;Imladris;;;;;;;;;;;x
 #WILDERNESS
 ca_wilderness;Wilderness;;;;;;;;;;;x
 ct_wilderness;Wilderness;;;;;;;;;;;x
-ca_wilderness_desc;There is nothing for men, elves or dwarves here... yet.;;;;;;;;;;;x
+ca_wilderness_desc;There is nothing for men, elves or dwarves here.;;;;;;;;;;;x

@@ -46,6 +46,15 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00043 Add ducal holding for Gandalf to allow to be played prior to WOTR events
 * TRGEO-00052 Add conquer CB for Gandalf - Do not meddle in the affairs of Wizards!
 * TRGEO-00058 Remove Maia trait from being added to Istari culture (Prevent dozens of random Maia from being generated in courts)
+* TRGEO-00060 Allow county level conquest for Noldor with martial focus
+* TRGEO-00061 Add localization text for ca_imladris2
+* TRGEO-00062 Add localization text for great_east_road
+* TRGEO-00070 Increase fertility penalties
+* TRGEO-00071 Increase population growth rate and food variation overall
+* TRGEO-00072 Two tiers of population collapse/migration for large (>100k) populations
+* TRGEO-00073 Reduce population growth for Elves, Istari
+* TRGEO-00074 Reduce population start for newly cleared territory
+* TRGEO-00075 Increase AI rate of clearing populations
 
 **TODO** 
 
@@ -77,7 +86,7 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00032 Replace temple holding images for Evil followers
 * TRGEO-00033 Replace Halflings with Orcs after land cleared by Saruman
 * TRGEO-00035 Fix setting of global flag aglarond_built
-* TRGEO-00036 Add text for Dwarf wonders
+* TRGEO-00036 Add localization text for Dwarf wonders
 * TRGEO-00038 Return House Gimli title to Gimli post War of Ring.
 * TRGEO-00039 If owner of Aglarond is owned by Light following char allow Gimli to ask for ownership via decision
 * TRGEO-00040 Add axe artifact for Gimli
@@ -97,11 +106,13 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00056 Fix martial study text ref Art of War
 * TRGEO-00057 Reduce piety of Istari characters with vassals (Wizards who rule over Middle Earth have their powers wane)
 * TRGEO-00059 Allow selection of settled race post population removal
-* TRGEO-00060 Allow county level conquest for Sindar with martial focus
-* TRGEO-00061 Add localization text for ca_imladris2
-* TRGEO-00062 Add localization text for great_east_road
 * TRGEO-00063 Add localization for elf wonders
 * TRGEO-00064 Stop Wilderness from joining defensive pacts
+* TRGEO-00065 Add localization for noldor_attack_county_desc
+* TRGEO-00066 Add CB to Tribes to take adjacent counties with Martial focus
+* TRGEO-00067 Increase income for Tribes slightly
+* TRGEO-00068 Add localization for Men-i-Naugrim Road
+* TRGEO-00069 Reduce colonization cost to 250 gold for both good and evil
 
 **FAQ**
 

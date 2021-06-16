@@ -481,7 +481,7 @@ province_event = {	#Province Cleared
         }
 		set_variable = {
 			which = sin_pop
-			value = 1000
+			value = 250
 		}
 	}
 }
