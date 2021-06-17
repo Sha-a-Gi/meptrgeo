@@ -402,16 +402,20 @@ annuminas = {
 arkenstone = {
 	picture = " "
 	quality = 5
-	stewardship = 4
+	diplomacy = 2
+	stewardship = 5
+	general_opinion = -20
 	vassal_opinion = 10
 	same_religion_opinion = 10
 	dynasty_opinion = 10
-	sex_appeal_opinion = 15
-	monthly_character_prestige = 1.0
+	sex_appeal_opinion = 10
+	monthly_character_prestige = 3.0
+	monthly_character_piety = 0.25
 	demesne_size = 1
 	slot = special
 	flags = { flag_arkenstone }
 	stacking = no
+	liege_opinion = -100
 }
 
 elessar = {

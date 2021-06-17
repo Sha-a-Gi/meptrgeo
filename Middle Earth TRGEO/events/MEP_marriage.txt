@@ -3,7 +3,7 @@ namespace = mepmarriage
 character_event = {
 	id = mepmarriage.13
 	hide_window = yes
-	min_age = 45
+	min_age = 50
 	is_triggered_only = yes
 
 	trigger = {

@@ -2,6 +2,13 @@
 
 **Requires Crusader Kings 2 v3.3.3**
 
+**Setup**
+Download the latest archive or use git to clone to your CK2 mod folder.
+
+**Rule Recommendations**
+Generate Families - Off
+
+
 **About CK2:MEP:TRGEO**
 
 A reboot of the amazing Middle Earth Project mod for Crusader Kings 2 v3.3.3 from Paradox Interactive.
@@ -36,11 +43,16 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 
 * TRGEO-00001 Remove option for player Frodo to wait for Sam to save him if captured by Sauron.
 * TRGEO-00004 Remove Gold requirement from use of Nenya
+* TRGEO-00010 Remove Frodo spouse
+* TRGEO-00011 Remove Frodo children
+* TRGEO-00012 Remove Aragon children  
 * TRGEO-00016 Add Potion artifact effects +1 health
 * TRGEO-00018 Fix Nenya cooldown trigger
 * TRGEO-00019 Remove Gold requirement from use of Vilya
 * TRGEO-00020 Increase MTE for orc breeding events by +5
+* TRGEO-00028 Remove +1000 gold from evil char having negative gold  
 * TRGEO-00034 Remove references to global aztec_invasion
+* TRGEO-00036 Add localization text for Dwarf wonders  
 * TRGEO-00037 Allow Gimli to be playable - adds House Gimli ducal title and Barony of Back Door on 11361.1.1. Held by Gloin during War of the Ring.  
 * TRGEO-00047 Add Ent and Eagle holy order for Gandalf's use
 * TRGEO-00043 Add ducal holding for Gandalf to allow to be played prior to WOTR events
@@ -57,7 +69,8 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00074 Reduce population start for newly cleared territory
 * TRGEO-00075 Increase AI rate of clearing populations
 * TRGEO-00076 Allow for clearing colonizing populations - you will receive 100 free settlers and colonizing will continue.
-
+* TRGEO-00077 Increase prestige for Dwarf wonder Golden Throne
+* TRGEO-00078 Add localization for Reconquest of Durin's Folk
 
 **TODO** 
 
@@ -68,9 +81,6 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00007 Change Gollum to Evil religion
 * TRGEO-00008 Add Bag End as holding
 * TRGEO-00009 Move Frodo from Count of Hobbiton to holder of Bag End
-* TRGEO-00010 Remove Frodo spouse
-* TRGEO-00011 Remove Frodo children
-* TRGEO-00012 Remove Aragon children
 * TRGEO-00013 Add Horn of Gondor graphic
 * TRGEO-00014 Remove Bilbo as Count of Hobbiton
 * TRGEO-00015 Add +Health from Ringbearer trait
@@ -82,14 +92,12 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00025 Add Ring of Durin graphic
 * TRGEO-00026 Add Dwarf-Ring graphic
 * TRGEO-00027 Fix crash when Saruman is taking over Shire
-* TRGEO-00028 Remove +1000 gold from Saruman having negative gold if player
 * TRGEO-00029 Remove tolerant from Saruman
 * TRGEO-00030 Increase piety gain for Ring of Saruman by +0.5
 * TRGEO-00031 Decrease prestige for temple holding to 5000
 * TRGEO-00032 Replace temple holding images for Evil followers
 * TRGEO-00033 Replace Halflings with Orcs after land cleared by Saruman
 * TRGEO-00035 Fix setting of global flag aglarond_built
-* TRGEO-00036 Add localization text for Dwarf wonders
 * TRGEO-00038 Return House Gimli title to Gimli post War of Ring.
 * TRGEO-00039 If owner of Aglarond is owned by Light following char allow Gimli to ask for ownership via decision
 * TRGEO-00040 Add axe artifact for Gimli

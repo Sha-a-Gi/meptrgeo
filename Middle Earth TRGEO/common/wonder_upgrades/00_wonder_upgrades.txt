@@ -3335,10 +3335,10 @@ upgrade_golden_throne = { # a throne made of gold
 		valuable
 	}
 	build_time = 25
-	gold_cost_flat = 1000
+	gold_cost_flat = 500
 	gold_cost_ticking = 1
 	owner_modifier = {
-		monthly_character_prestige = 1
+		monthly_character_prestige = 5
 	}
 }
 
@@ -3404,7 +3404,7 @@ upgrade_runestones = {
 	gold_cost_flat = 450
 	gold_cost_ticking = 1
 	owner_modifier = {
-		dynasty_opinion = 3
+		dynasty_opinion = 7
 	}
 }
 
