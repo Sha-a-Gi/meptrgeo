@@ -3,9 +3,11 @@
 **Requires Crusader Kings 2 v3.3.3**
 
 **Setup**
+
 Download the latest archive or use git to clone to your CK2 mod folder.
 
 **Rule Recommendations**
+
 Generate Families - Off
 
 
