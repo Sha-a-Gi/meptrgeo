@@ -4899,7 +4899,7 @@ province_event = {	#Pop Growth
 	}
 
 	mean_time_to_happen = {
-		years = 100
+		years = 250
 		modifier = {	#Happens more for Colonies
 			factor = 0.05
 			has_province_modifier = being_colonised
@@ -4943,7 +4943,7 @@ province_event = {	#Food Surplus
 	}
 
 	mean_time_to_happen = {
-		years = 100
+		years = 250
 	}
 
 	option = {	#Collect a Bonus Tax
@@ -4992,7 +4992,7 @@ province_event = {	#Pop Decline
 	}
 
 	mean_time_to_happen = {
-		years = 100
+		years = 250
 		modifier = {	#Rapid Breeders More likely to Crash
 			factor = 0.4
 			OR = {
@@ -5028,7 +5028,7 @@ province_event = {	#Minor Pop Decline
 	}
 
 	mean_time_to_happen = {
-		years = 100
+		years = 250
 		modifier = {	#Rapid Breeders More likely to Crash
 			factor = 0.6
 			OR = {
@@ -5060,7 +5060,7 @@ province_event = {	#Food Shortage
 	}
 
 	mean_time_to_happen = {
-		years = 100
+		years = 250
 	}
 
 	option = {	#Pay for a Grain Shipment

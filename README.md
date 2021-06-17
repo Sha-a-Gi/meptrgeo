@@ -49,12 +49,15 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00060 Allow county level conquest for Noldor with martial focus
 * TRGEO-00061 Add localization text for ca_imladris2
 * TRGEO-00062 Add localization text for great_east_road
+* TRGEO-00063 Add localization for Elf wonders
 * TRGEO-00070 Increase fertility penalties
 * TRGEO-00071 Increase population growth rate and food variation overall
 * TRGEO-00072 Two tiers of population collapse/migration for large (>100k) populations
 * TRGEO-00073 Reduce population growth for Elves, Istari
 * TRGEO-00074 Reduce population start for newly cleared territory
 * TRGEO-00075 Increase AI rate of clearing populations
+* TRGEO-00076 Allow for clearing colonizing populations - you will receive 100 free settlers and colonizing will continue.
+
 
 **TODO** 
 
@@ -106,7 +109,6 @@ In the case of broken events, text, graphics, or other bugs open an issue.
 * TRGEO-00056 Fix martial study text ref Art of War
 * TRGEO-00057 Reduce piety of Istari characters with vassals (Wizards who rule over Middle Earth have their powers wane)
 * TRGEO-00059 Allow selection of settled race post population removal
-* TRGEO-00063 Add localization for elf wonders
 * TRGEO-00064 Stop Wilderness from joining defensive pacts
 * TRGEO-00065 Add localization for noldor_attack_county_desc
 * TRGEO-00066 Add CB to Tribes to take adjacent counties with Martial focus
